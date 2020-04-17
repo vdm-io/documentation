@@ -1,1 +1,1 @@
-# Steps of Downloading & Setting up Component **Sermon Distributor**
+# Steps of Downloading & Setting up Component Sermon Distributor
