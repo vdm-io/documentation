@@ -1,5 +1,1 @@
-# Some Introductory Text / Message
-
-If you want to embed images, this is how you do it:
-
-![Image](/images/ser.png)
+# This is a guide that explains how to set up and use various Joomla! Web Extentions developed by <space> ([Vast Development Method](https://vdm.io))

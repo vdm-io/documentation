@@ -1,1 +1,3 @@
-# Steps of Downloading & Setting up Component **Support Groups**
+# <u> Setting up the Support Groups Component </u>
+
+![Image](/images/SGD500.jpg)
