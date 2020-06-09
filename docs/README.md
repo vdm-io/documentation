@@ -1,1 +1,1 @@
-# This is a guide that explains how to set up and use various Joomla! Web Extentions developed by <space> ([Vast Development Method](https://vdm.io))
+# This guide explains how to work with various Joomla! Web Extensions developed by ([Vast Development Method](https://vdm.io))
