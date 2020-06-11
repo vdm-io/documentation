@@ -19,6 +19,10 @@ The best way to see all your options is to install this component on you Joomla 
 + [Setup overview](https://youtu.be/yMPp1Cp3W_0?t=20m8s)
 + [Setup Dropbox](https://youtu.be/btpKFDk0-dI)
 
+### Add Preacher
+
+[Add Preacher](sermon-distributor/addPreacher.md "Add Preacher")
+
 # Build Details
 
 + *Company*: [Vast Development Method](https://www.vdm.io/)
