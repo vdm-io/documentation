@@ -4,7 +4,13 @@ This is a [Joomla 3.x](https://extensions.joomla.org/extension/component-builder
 
 ![Demo image](https://raw.githubusercontent.com/namibia/demo-joomla-3-component/master/admin/assets/images/vdm-component.jpg "The Demo")
 
+# Description
+
 Just a basic demo of the most basic implementations of the [Joomla](http://www.joomla.org) Component Builder's ability.
+
+# Features
+
++ [Add Looks](advanced-demo/addLook.md "Add Look")
 
 # Build Details
 

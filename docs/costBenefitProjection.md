@@ -4,6 +4,8 @@ This is a [Joomla 3.x](http://www.joomla.org/) component.
 
  ![Cost Benefit Projection image](https://raw.githubusercontent.com/namibia/CBP-Joomla-3-Component/master/admin/assets/images/vdm-component.png "The Cost Benefit Projection")
 
+# Description
+
 Create Epidemiological Profiles for diseases and risks affecting your company. Detailed information on projected work days lost and costs. Create and edit activities and wellness responses for your workplace. Access to Small Business Modeling. Results displayed by gender. Network with other companies and wellness professionals.
 
 Having seen the health priorities for your workforce, the tool outputs projections for how the interventions – which you have designed - are expected to benefit the company financially.
