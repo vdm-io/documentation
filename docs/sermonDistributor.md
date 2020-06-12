@@ -4,6 +4,8 @@ This is a [Joomla 3.x](https://extensions.joomla.org/extension/component-builder
 
 ![Sermon Distributor image](https://raw.githubusercontent.com/SermonDistributor/Joomla-3-Component/master/admin/assets/images/vdm-component.jpg "The Sermon Distributor")
 
+# Description
+
 Distributor is a highly advanced sermon distributor that runs on the [Joomla 3.x](http://www.joomla.org) framework. You can link a shared folder from Dropbox to the component and use Dropbox as your file host, not to mention the advanced auto builder that gives you the ability to simply load sermons to your website by only adding them to Dropbox.
 
 The best way to see all your options is to install this component on you Joomla website and test all features yourself. Here is a [direct download link](https://github.com/SermonDistributor/Joomla-3-Component/archive/master.zip)

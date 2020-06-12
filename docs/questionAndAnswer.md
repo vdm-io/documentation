@@ -4,6 +4,8 @@ This is a [Joomla 3.x](http://www.joomla.org/) component.
 
  ![Questions and Answers image](https://raw.githubusercontent.com/vdm-io/Joomla-Questions-and-Answers/master/admin/assets/images/vdm-component.jpg "The Questions and Answers")
 
+# Description
+
 Just a basic Questions & Answers.
 
 # Build Details
@@ -31,4 +33,4 @@ Just a basic Questions & Answers.
 If you want to support this project, please consider donating:
 * PayPal: [paypal.me/asseblief](https://www.paypal.me/asseblief)
 * Bitcoin: 18vURxYpPFjvNk8BnUy1ovCAyQmY3MzkSf
-* Ethereum: 0x9548144662b47327c954f3e214edb96662d51218 
+* Ethereum: 0x9548144662b47327c954f3e214edb96662d51218

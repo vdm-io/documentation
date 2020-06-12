@@ -3,6 +3,8 @@
 
  ![Members Manager image](https://raw.githubusercontent.com/vdm-io/Joomla-Members-Manager/master/admin/assets/images/vdm-component.jpg "The Members Manager")
 
+# Description
+
 A [Members manager](https://github.com/vdm-io/Joomla-Members-Manager) to use as a base for any kind of project that needs user integration. You can with much ease adapt it using the [JCB package](https://github.com/vdm-io/JCB-Community-Packages/raw/master/JCB_membersManager.zip).
 
 Watch this [tutorial](https://youtu.be/lkE0ZiSWufg) to see how.
@@ -54,4 +56,4 @@ Project duration: **5 weeks** or **1 months**
 If you want to support this project, please consider donating:
 * PayPal: [paypal.me/asseblief](https://www.paypal.me/asseblief) (Asseblief = Please) in Afrikaans
 * Bitcoin: 18vURxYpPFjvNk8BnUy1ovCAyQmY3MzkSf
-* Ethereum: 0x9548144662b47327c954f3e214edb96662d51218 
+* Ethereum: 0x9548144662b47327c954f3e214edb96662d51218
