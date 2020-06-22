@@ -8,6 +8,10 @@ This is a [Joomla 3.x](http://www.joomla.org/) component.
 
 Just a basic Questions & Answers.
 
+# Features
+
++ [Add Questions & Answers](question-answer/addQaA.md "Add Q&A")
+
 # Build Details
 
 + *Company*: [Vast Development Method](https://www.vdm.io/)
