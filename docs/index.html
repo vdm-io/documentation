@@ -13,12 +13,27 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      search: {
+        noData: {
+          '/de-de/': 'Keine Ergebnisse!',
+          '/zh-cn/': '没有结果!',
+          '/': 'No results!'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/de-de/': 'Suche',
+          '/zh-cn/': '搜索',
+          '/': 'Search'
+        }
+      },
       loadSidebar: true,
+      loadNavbar: true,
       repo: 'https://github.com/ohrionmartin/documentation'
     }
   </script>
 
   <!-- load script -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
