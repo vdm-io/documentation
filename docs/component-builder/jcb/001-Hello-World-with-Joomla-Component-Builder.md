@@ -1,25 +1,26 @@
-# (work in progress)
-
-### [Video](https://www.youtube.com/watch?v=1KBBtQUxMTc)
-
 ### Introduction
 + [01:55](https://youtu.be/1KBBtQUxMTc?t=115) **Install Joomla! Component Builder/Creator** _Download and install Joomla Component Builder/Creator_.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1KBBtQUxMTc?start=115" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 You can find the component in the repository on GitHub. Note, these files are not populated with data. The component shows you the very bare essentials of what's required to make a component work in Joomla! But we are going to do much more than the code does in this component. When we are done we will have an application with many lines and we will add structures so it goes way beyond just a wire frame component. The latest release can be downloaded [here](https://github.com/vdm-io/Joomla-Component-Builder). After downloading the file, upload it to the root of the website directory you will be installing it in. For this example, click the Releases link, download and install the file. The first thing to do next is create a field.
 
 ### Create Greeting Field
 + [02:46](https://youtu.be/1KBBtQUxMTc?t=166) **Create a Field** _Create Greeting Field_.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1KBBtQUxMTc?start=166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There are many field types. We need to create a basic custom text field named greeting. You will see there are a lot more fields which I'll leave unchanged. I'm also going to remove a few things but the field will still work even though these lines are removed. Change the type to VARCHAR, save and close.
 
 ### Create Admin View
-[03:51](https://youtu.be/1KBBtQUxMTc?t=263) **Create an admin view** _Create an admin view and link fields to database_. 
+[03:51](https://youtu.be/1KBBtQUxMTc?t=263) **Create an admin view** _Create an admin view and link fields to database_.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1KBBtQUxMTc?start=263" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 After creating a new field the next thing to do is create an admin view. This is what links fields to the database. Call it greeting for a single record and greetings for a list of records and greetings for a system name so that we can identify this across the system. I am going to add the greetings and a few generic icons. Then link that field we made to show, be the first one, act as a title, be sortable, be searchable and be a link in the first tab and first in that tab. Then give it permissions and save. The rest of the structure could be left as is. We will have a working component with this as an admin view so save and close.
 
 
 ### Create Component Called World and Compile It
-[03:51](https://youtu.be/1KBBtQUxMTc?t=263) **Create Component Called world** _Create an admin view and link fields to database_. 
+[03:51](https://youtu.be/1KBBtQUxMTc?t=263) **Create Component Called world** _Create an admin view and link fields to database_.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1KBBtQUxMTc?start=263" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now we need to create a component Click on new and it loads a new Joomla component. I'm going to call it world. For the most part I'm just adding some test data here. I can select an icon. An image can be shown after installation of the component as well as in the admin area. The rest of the features in the settings that we need to change are:
 
@@ -41,18 +42,20 @@ Compile it and install it into Joomla. For installation, deselect some of the se
 All of this was done with just a few clicks and the result is a workable component which is now installed. If you look at the code you'll see the installer script of the hello world component. It adds the whole component into the content types and also into all the relevant areas. It also checks to see that we are at version 3.6 of Joomla!. It has also created the greeting table and modules. It has created helper structures. There is a helper class that was set up which has many features, functions and methods. Browse through the helper class in here if you know PHP. There is a very helpful method used in the code that grabs one value from the database. There are many functions in here which you can now use in your component by simply calling the helper class. This is what the application does and there is a MySQL folder with a few MySQL files, and one PHP file. It is very basic but JCB built hello world in a very short time. Look through this folder, learn the structures and what you need to know about the components.
 
 ### Add a Front End to this Component
-[12:15](https://youtu.be/1KBBtQUxMTc?t=737) **Create an admin view** _Create an admin view and link fields to database_. 
+[12:15](https://youtu.be/1KBBtQUxMTc?t=737) **Create an admin view** _Create an admin view and link fields to database_.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1KBBtQUxMTc?start=737" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For the next part of the tutorial we will focus on adding a front end to this component and you must remember that We left the front end open because we want to allow developers to be able to express themselves in unique ways and not have a cookie cutter recipe that just gets used over and over. JCB allows diversity and differences between components. Ones built using JCB only look similar in the admin area. The site area can look completely different from anything else. To avoid the sameness means a lot of custom coding is needed for the site area. You need to know PHP at a more advanced level and how Joomla! works to make it work the way you want. I'm going to give you the quickest and shortest path to getting a site area which first can display the items and second, can edit them.
 
 ### Build a Dynamic Get
 [12:15](https://youtu.be/1KBBtQUxMTc?t=814) **Build a Dynamic Get** _Build a Dynamic Get to begin setting up the front end_.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1KBBtQUxMTc?start=814" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The first thing to build when we are setting up the front end is a dynamic get. It is used in JCB to access various tables and combine their data sets. It also delivers them to the front end of any site view. You can reuse them and add multiples of them. For this example I am going to build a very simple one. First I'm going to have it read a list and I'm going to make sure this is a list query. Next I am linking it to an admin area view, greetings. I am going to have it retrieve all the data. I'm going to say no, I don't want pagination and I'm going to have one WHERE filter published here. Copy that and put it in here and say when published equals 1 so we just grab published items and nothing else. There we go, grabbing all the data from this one table and displaying it on the front end. We are filtering it with this option. You can join other tables related with this data but I'm not going into depth here. The reading list is done.
 
 We need to have another dynamic get to view one greeting so let's create that and call it greeting and leave it as a get item. Go back into the view and then select greeting and this time use a filter and add ID here and a dot id So that should do it. Save and close so now we have our two Dynamic Gets in place. The second step is adding the site view for the list of items.
 
-To do this, select the get query for the list. If we want to see how it possibly would look I'm in the PHP and we have an area where you can select the same option. I'll give you an idea of how the PHP may look. This may differ depending on how you set up your dynamic get. Most of the time it is correct and you can simply copy and paste some of the snippets into your code here and Immediately start using it. So I'm going t add am ordered list here So we will have a list item. Now we'll just echo greeting as a text and then grab that snippet pasted in there the close the unordered list. 
+To do this, select the get query for the list. If we want to see how it possibly would look I'm in the PHP and we have an area where you can select the same option. I'll give you an idea of how the PHP may look. This may differ depending on how you set up your dynamic get. Most of the time it is correct and you can simply copy and paste some of the snippets into your code here and Immediately start using it. So I'm going t add am ordered list here So we will have a list item. Now we'll just echo greeting as a text and then grab that snippet pasted in there the close the unordered list.
 
 Now we want to use an ordered list here so, we are going to use this as the opening tag and then close it and call this reading greetings and greetings again for the greetings initial description. We are all set here but for now there are no links. We will have to come back and add them. For now, I'm just adding an iteration over there of the items and display the greetings then save it and close.
 
