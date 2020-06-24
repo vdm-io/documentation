@@ -9,10 +9,3 @@
   * [Members Manager](membersManager.md "Members Manager")
   * [Support Groups](supportGroups.md "Support Groups")
   * [Cost Benefit Projection](costBenefitProjection.md "CBP")
-
-* Configuration
-  * [Configuration](configuration.md)
-  * [Themes](themes.md)
-  * [Using plugins](plugins.md)
-  * [Markdown configuration](markdown.md)
-  * [Language highlight](language-highlight.md)
