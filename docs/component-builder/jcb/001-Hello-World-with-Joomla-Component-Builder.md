@@ -1,12 +1,14 @@
+<div style="text-align: justify">
+
 ### Introduction
-+ [01:55](https://youtu.be/1KBBtQUxMTc?t=115) **Install Joomla! Component Builder/Creator** _Download and install Joomla Component Builder/Creator_.
+[01:55](https://youtu.be/1KBBtQUxMTc?t=115) **Install Joomla! Component Builder/Creator** _Download and install Joomla Component Builder/Creator_.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1KBBtQUxMTc?start=115" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 You can find the component in the repository on GitHub. Note, these files are not populated with data. The component shows you the very bare essentials of what's required to make a component work in Joomla! But we are going to do much more than the code does in this component. When we are done we will have an application with many lines and we will add structures so it goes way beyond just a wire frame component. The latest release can be downloaded [here](https://github.com/vdm-io/Joomla-Component-Builder). After downloading the file, upload it to the root of the website directory you will be installing it in. For this example, click the Releases link, download and install the file. The first thing to do next is create a field.
 
 ### Create Greeting Field
-+ [02:46](https://youtu.be/1KBBtQUxMTc?t=166) **Create a Field** _Create Greeting Field_.
+[02:46](https://youtu.be/1KBBtQUxMTc?t=166) **Create a Field** _Create Greeting Field_.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1KBBtQUxMTc?start=166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There are many field types. We need to create a basic custom text field named greeting. You will see there are a lot more fields which I'll leave unchanged. I'm also going to remove a few things but the field will still work even though these lines are removed. Change the type to VARCHAR, save and close.
@@ -80,3 +82,5 @@ But now just to Push the boundaries even little further let's link the editing o
 The controller actually has a lot of these permissions already in place and So you're shouted you until you don't have permissions to edit this item and so that's what I'll demonstrate So I'm just gonna add it all Link here To actually edit The the item Now again you might not know what that link should be And you could go back to the back end of the component To define the link So you're in the backend I'm just simply opening the templates view and then I'm opening The body File and then hear it it has the link obviously it's in the back end it Actually is related to the admin folder but in the front there and it is related to the site root So you could just grab this Snippet here To build your link Scroll down a little in the page And basically search for this variable And you'll see that we're using that edit variable Adding and ID = and then just adding the ID That's how we building the link in the backend And you could do similar in the front The add some custom PHP to the front of the site there is a PHP tab And Custom view script and it says your add custom PHP script to the head of the file so I'm just go Paste that in there Basically
 
 We now have an edit variable on the page And so in the default View area I'm just gonna Echo that edit and then again to the and ID Eco CID Around the edit Link And how this click save And then compile This component again and install And now go to the home page and refresh Now we see there is a new edit link here If we click it now It's gonna shout at us and say no you don't have permit you're not permitted to edit this item so I'm just logging here as a user That will have permissions Ok I'm not logged in I'm gonna click on this edit link again And as you can see it's opened and edit view where I can see the publish conserves the permissions And I can change William Do Gemini and save and close And it's edited that value And that's it we have Demonstrated the build of a hello world component From scratch And in just a few Clicks We have successfully set up a component with tremendous advanced features already At its fingertips Ready to go Well I hope this will be helpful to many if you're out there and Enjoy
+
+</div>

@@ -1,14 +1,13 @@
+<div style="text-align: justify">
+
 # ADMIN VIEWS
 
-[00:00:00](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on these time links to see Youtube video_)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this tutorial we are looking at admin views, the next step of developing your component. First, we started with field types and how to set up and improve on them. Then we learned to use those field types to build basic common fields. Now we are going to take those fields and add them to admin views.
 
 ### Naming Convention
 
-[00:00:35](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m35s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=35" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Admin views, like I explained in our initial General Planning tutorial, forms the basis of your component's database structure. Admin views are where your database structure is being developed. [00:00:56](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m56s)
@@ -16,21 +15,18 @@ All admin views have their own table. They have a single name, a list record or 
 
 ### Creating an Admin View
 
-[00:02:49](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m49s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=169" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Click 'new' to create an admin view. I'm going to open preacher, because it's the one we are using as our illustration. You'd see that there should be a name for a single record. That is where you would edit these records. (In this case, it is preacher.) Below is a list of records that are 'preachers'. [00:03:14](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m14s) There is a short description and a normal description, depending on what you would like to say. There is a type; 'read/write' and 'readonly' which changes the component's editing view. If you say 'readonly,' the fields wouldn't be editable. [00:03:36](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h03m36s) The 'Modified By' field cannot be edited because it's done automatically, and when it was modified, it updates every time you click save. [00:04:02](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m02s) If you leave it on 'read/write,' you will be able to edit it.
 
 ### View Icons
 
-[00:04:16](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m16s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=256" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There is a place for an icon. (If you hover over the icon it gives you the dimensions that are needed.) When you look at the dashboard, those icons there are the ones selected. [00:04:24](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m24s) The icon has two options: 'Add Icon' and 'Icon.' If you hover over 'Icon,' you should see the images if they are set in your images folder. [00:04:46](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m46s) If you open this, it goes to your image folder where you select the icon. If you are going to add a field called category that is of the category type, then you should add a category icon. [00:05:14](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m14s) Since the system will then automatically know that there has to be a category setup, and will look for a category icon to use for that category. If you select a category field that is a general category for the whole component, which isn't directly linked to this view, it will take the first view (the system, when processing, will see which view is first, which would usually be the first one you've created) and use the icon in that view. To be on the safe side, if you are using one category for them all, set the same icon on them all. [00:05:37](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m37s) If you are going to use a category which is primarily focused on the preachers, and you are going to put preachers in a category, you need to add a category icon for categories. [00:06:02](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m02s)
 
 ### Permission Implementation
 
-[00:06:15](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m15s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=375" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The permission switch is related to accessing and updating of data. Here we have admin views edit, admin views edit state, admin views edit own, admin views create, admin views delete, admin views access, and admin views edit version. [00:06:24](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m24s) If you are in the managing group and the particular edit is set to allow, you can edit it. If you are a guest and it is set to deny, no matter where you are in the front or back of the site, (even if you have a direct link,) you won't be able to edit this information. [00:06:49](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m49s) It does have view access so that somebody who might be not allowed to edit, can still view the content in the back end in the list view. [00:07:08](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m08s) It will show in the list view, and they can see that it is there. You might want to display the record and leave a custom admin link to the data. [00:07:32](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m32s)
@@ -53,7 +49,6 @@ One of the features that make Component Builder far more advanced than other com
 
 ### Tabs
 
-[00:19:26](https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=1166)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=1166" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The tab structure. We call these tabs. (See video.) [00:19:27](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h19m27s)
@@ -68,7 +63,6 @@ In 'Preacher' I set up two tabs: one called 'Details' and one called 'Sermons.' 
 
 ### Linked Views
 
-[00:20:53](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h20m53s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=1253" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 When you create fields you'd see a column called tab in which you'd select a number, from one upward. Because we are using a different location than the tabs, we don't use the names. [00:21:15](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h21m15s) When you set up a field, you need to tell in which tab you want to place that field. That is what the tab number is all about. [00:21:35](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h21m35s) You might wonder where tab two's information is. 'Sermons' is actually a table on its own; there is an admin view called sermon, and it has its own back end view and structure. [00:22:02](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h22m02s) We created a thing called 'Linked Views' to get the 'sermons' related to this 'preacher' to show in the second tab, 'sermons.' (See video.) [00:22:25](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h22m25s) Selecting 'sermon' as the view, I set it to be placed in the second tab. The 'Parent Key' would be the view in which you are the moment that you are setting up the linked view. [00:22:49](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h22m49s)  It depends on the view you are editing. Hence, if you are in 'preacher' the parent is 'preacher;' if you are in 'sermons,' the parent is 'sermon.' So in this case, when we talk about the child key ('preachers') it would be the database field name that is to be looked at. [00:23:10](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m10s) The parent field name ('id') would be found in 'preachers.' [00:23:38](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h23m38s)  
@@ -83,7 +77,6 @@ Open the admin view. (See video.) [00:29:32](https://www.youtube.com/watch?v=CdS
 
 ### Setting Up Fields
 
-[00:32:30](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m30s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=1950" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Since we already created the fields beforehand you will start out this way. (See video.) You would scroll down the fields that you created. (If it is a long list you can type the field's name and it will bring it up to you.) It asks whether you'd like to show the field in the admin list view. [00:32:56](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h32m56s) That means that there is a list of names if you close your editing area; if you want that specific field to show up in this list you'd select 'show'. If you select 'show,' you can set in which order you want this. (See video.) [00:33:18](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h33m18s)
@@ -92,7 +85,6 @@ In Joomla the title and alias concept is quite interesting. [00:33:41](https://w
 
 ### Field Alignment
 
-[00:37:54](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h37m54s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=2274" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We said that we wanted the preacher's name, etc, in the settings. Our tab for settings is the first tab. (See video.) We are looking at the back end setup where you want to have this field's display. There are different placing options and an order in which it should go. (See video.) [00:38:20](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h38m20s)
@@ -103,7 +95,6 @@ Let me go to this one, 'Add Question'. (That is right of the tab, not in the tab
 
 ### Fields Title
 
-[00:41:39](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h41m39s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=2499" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can only have one title per view and only have one alias per view. You shouldn't have more than one selected. The system will ignore the others anyhow, but just to be safe set the others to no. Be sure to use the correct field values. When you set any of these to show, you should set the order of their display here. (See video.) The filter is added dynamically by simply clicking a yes here. (See video.) If we go to sermons as an example, and we click on their fields, they have many fields which will help to illustrate some of these things. You'd see that we have sermon series and we have it set up as a filter. [00:42:43](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZW) So then that is how you can use the text field. This means we can sort these sermons by series.
@@ -112,7 +103,6 @@ Remember this is primarily for the back end. Although some of that information w
 
 ### Conditions
 
-[00:43:47](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h43m47s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=2627" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Conditions is an amazing feature which goes beyond Joomla's control on the show on attribute per field. Remember we looked at the show on attribute: it can control which fields to show when you are clicking on other fields. For example, we have a field called 'Add JavaScript.' If I click 'yes' it opens this area, JavaScript, where I can add custom scripting. This behavior is being controlled by the structure of the condition.
@@ -123,7 +113,6 @@ The condition structure for sermons is the following. (See video.) You'd see a f
 
 ### Isolate and Chain Function
 
-[00:45:55](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h45m55s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=2755" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This isolate and chain function is a concept which would be best explained when you think that more than one field must be used to show the other one. In this case, Dropbox Auto Note (in sermons) should not only show when the field's source is Dropbox but also when Built Option is automatic. Hence both of these should be true before it shows the Dropbox note. You would select the field you want to control. You can control more than one at a time, but the logic behind this might not always work so you need to try and test it. If it doesn't work, tweak it until you find it behaving the way you expect. Most of the times you would only link one field to one validation. [00:46:59](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h46m59s) However, as soon as you have multiple fields, you would use the chain option. The build option of files should show when the file source is Dropbox and it's isolated, not connected to any of the other settings here. As soon as you click chain, it means any other row that has this field will be chained together. So both must have been validated as true before it will show the field. Here it says file source. You can select any of these if you know that this file source is a list, you can see the list options. (See video.) [00:48:03](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h48m03s) You can say 'is' or 'is not.' If it 'is' Dropbox, then it should show; if it 'is not' Dropbox then it should show. That is the logic behind it.
@@ -142,28 +131,24 @@ Let's go back to the admin views. This is a structure that you can use to manipu
 
 ### Field Listing
 
-[00:59:59](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h59m59s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=3599" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We looked at permissions, tabs, fields, conditions, and linked views. The next one is the list of the fields that you have already selected and saved. If you want to update any of these fields, you could just click on the field name and it will take you to the field where you can update it.
 
 ### Custom CSS View
 
-[01:00:18](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h00m18s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=3618" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The next tab is a place for you to add custom CSS that is related to your specific view. You can add CSS here, which is for the edit view or the single view; or you can add CSS here, which is for the list view or the multiple views (plural). (See video.) Now it will be placed in its prospective places. The same goes with the JavaScript, except that you'd have four places to target instead of one.
 
 ### Custom Javascript View
 
-[01:00:50](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h00m50s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=3650" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 When we looked at the way that we are building the JavaScript, you'd remember that there was a JavaScript file, which has JavaScript for the view. There is also the footer area which is under the HTML and PHP at the end of the file which is just JavaScript. We decided to add the option of adding JavaScript to the file or to the footer. It just gives you the option of targeting. If you know list this script can run as a function. You add it to the file and, if you want to use the function, you can add it to the footer.
 
 ### Adding AJAX Via the Controller and Method Implementation
 
-[01:01:48](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h01m48s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=3708" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There is a PHP area where you have the option of adding JavaScript to your editing view primarily. Looking at editing views, the moment you click on 'Add JavaScript,' it opens a tab. The way that we want to implement AJAX is via the controller and method implementation. The component has a controller called ajax.json.php which has a model called ajax. So you have a controller and a model. The controller is like the gatekeeper. It does a few checks and balances to ensure that the data is correct and the token is right. If you had set this to validate whether he is a user or not, it also checks for a user ID. [01:02:59](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h02m59s) If you set it that not to require him to be a user, it would drop off this validation.
@@ -181,7 +166,6 @@ This is where this PHP script is going to be used. (See video.) I added the Ajax
 
 ### Get Items
 
-[01:10:41](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h10m41s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=3708" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you know the Joomla API, you know that it has a 'getitem method' in the model. In the model there's a 'getitem method' in the editing model; in the list model there is a 'getitems method'; there's a 'getlistquery' in the 'jmodellist,' a 'safe method', a 'postsavehook method' in the controller and an 'allowedit method'. [01:11:10](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h11m10s)
@@ -189,23 +173,22 @@ There's a 'batchcopy method', a 'batchmove method', a 'script before delete meth
 
 ### Save Method
 
-[01:11:34](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h11m34s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=4294" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You need to know where the 'save method' is. Open 'sermon' and scroll down to 'get item'. You can add custom scripting to the 'get item method'. [01:12:06](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h12m06s) There is 'save method.' If we go back and click on the 'save method' you'd see the PHP here that should run in the 'save method'. You have the $data. It's an array and is called $data. [01:12:27](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h12m27s) It means that you're able to target that value. It gets placed into 'save method'. [01:12:47](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h12m47s) Your custom value code will probably be placed in before '(parent::saved($data))'. If you do not know in which of those custom scripts the code will be set, type it. [01:13:06](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h13m06s) It is  loaded here. Save it, compile the component and then look at the code. You will see where it is showing up. You have all these values already in the script. (See video.) [01:13:37](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h13m37s) It will add the string. When the component runs it will treat it as code. It is a comment but if it was code it will execute. It is the way to add custom scripting right into your component.
 
 ### Post Save Hook
 
-[01:14:05](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h14m05s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=4445" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The 'postSaveHook' is in the controller, not in the model. Go to the controller 'sermon'. Scroll to the bottom and find 'postSaveHook'. It gives you the model and the valid data. You can perform extra features on it. [01:14:27](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h14m27s) In all these things you should read the description. The PHP here should run in the 'postSavehook' Method; there is the $model, the data model, and the validated data. If you just read our note here, you can start coding for it.
 
 ### MySQL Dumps Test Data
 
-[01:15:06](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h15m06s)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdSKSCTzmRA?start=4506" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can do two kinds of dumps. What is this used for mostly? Often, while I am busy developing, I'd set up a component, install it, then add dummy data to it to see if it works. [01:15:15](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h15m15s) Every time I make a change and uninstall that component and install the new one, whatever change is made to the database won't be added to the database via an update. You need to uninstall the component and install it again to get the database back to where you want it. The only way I could save time was to re-install this component and the dummy data for sermons I would like to retain. [01:15:43](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h15m43s) Open the tables where it will show a list of all the tables that are in the database at that moment. Scroll to sermon table. Click on it and it will load the table and what it should be called in the data set. [01:16:06](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h16m06s) Let's say you want to have it mapped to multiple tables, then this 'Source Map' is the explanation on how to do that. I won't recommend doing this because you might not get what you expect. [01:16:29](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h16m29s) Going with the values that he populates for you would probably be the best unless those values change and if you are making changes or adding new fields. You need to reset this by clicking on something else. Click on it again and it loads the new list of fields that are related to the table to the back end view table. [01:16:57](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h16m57s) In that way you compile the component, while the component builder grabs the data from the database and build a dump file for you. (See video) [01:17:18](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h17m18s) This might be a little bit complex but it saves time. Another way to do it would be to do a dump file itself. Go to your 'MySQL', open the specific fieldtypes, click on export, select SQL format, and click 'go'. [01:17:40](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h17m40s) This will create a dump file of all the data in the table. You can paste that dump file in here. [01:18:17](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h18m17s) Click 'export', 'quick', SQL, then 'Go'. Save it. Open CB componentbuilder_fieldtpye.sql. [01:18:41](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h18m41s) Replace 'cb' with #_.' Click 'Replace All'. You won't use the table structure because it is already in Component Builder. You just use this area here. (See video.) [01:19:03](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h19m03s) You would copy this area, cut, go tp MySQL and paste it there. Save. You now have the dump file. It will be added to your new install. [01:19:36](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h19m36s) If a dump file is too big, you will see it after your clicked save; look at the end and see if it had cut it off somewhere. If it had, the dump file is too big for use. (See video.) [01:20:04](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h20m04s)
 
 That was setting up an admin view. [01:21:20](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h21m20s) If you have any questions please email me and I will try to communicate with you. If I see that a certain question comes up often enough I will include them in a future tutorial. [01:21:35](https://www.youtube.com/watch?v=CdSKSCTzmRA&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=01h21m35s)
+
+</div>
