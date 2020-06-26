@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 ### Component, Form, Fields, Field Types, API, Model, View, Controller, and the XML File
 
 If you have a good understanding of the Joomla! API you'll know it can build forms that can be used in a component; it's done using an XML file. Joomla! Component Builder builds the XML file and places it in a location your model, view, and the controller can access using the Joomla! API. JCB builds the fields which you define in a view containing the fields displayed by the component you are building using JCB. These and other terms will be defined as we proceed. Let's start with field types, then see them in action using Joomla! article list views and edit views.
@@ -71,3 +73,5 @@ The way the compiler works it is doesn't really grab the string and just put it 
 These are really the only things needed to understand using field types. Eventually, these may become input fields in one big text area that leaves us with a lot of room and freedom to adjust easily without major complications. In any case, if you start a new field, which we'll look at later, it populates this with the demo data and the demo data is actually values that you added when you created the field type. You see in the demo it is this value from the example that is placed here. It's from these values that the region is in if you create a new text field. It grabs these values as the values which you can then adjust to suit your purpose. If you know implementation for that specific field at that moment and if you leave it blank it will also build it without any value between those two estimation marks that are looking at field types.
 
 Most field types have been set up for you and you hardly ever would need to come here except for a deeper understanding of how field types work and how Joomla! and JCB implement them. You do not need to change things unless you wish to. You may be interested in my next tutorial on how to use field types in fields.
+
+</div>

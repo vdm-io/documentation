@@ -1,27 +1,28 @@
+<div style="text-align: justify">
+
 # ADDING SITE VIEWS TO A COMPONENT
 
 Using Sermon Distributor As Example
 
-[00:00:00](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on these time links to see Youtube video_)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zZ_HJeYL8ps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Let's look at adding Admin Views and Site Views to Component Builder's component. We will look at the different switches and the features installed for you. First, login. Open Component Builder under Component Builder, then go to components. 
+Let's look at adding Admin Views and Site Views to Component Builder's component. We will look at the different switches and the features installed for you. First, login. Open Component Builder under Component Builder, then go to components.
 
 ### Settings - Views
 
-[00:00:25](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m25s)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zZ_HJeYL8ps?start=25" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Open Sermon Distributor and go to settings. There is a place for Admin Views. (Adding the Admin Views has already been illustrated.) There's Custom admin views and Site views. Click on 'add custom admin view'. There aren't any added to the component; Sermon Distributor does not have Custom Admin Views. [00:01:01](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m01s)
 
 ### Adding Site Views Important _Glitch_
 
-[00:01:11](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m11s) 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zZ_HJeYL8ps?start=71" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It has quite a few Site views. You might open it and see some of the buttons are not selected. Although you selected and saved it previously it doesn't show. This is a glitch in Joomla's own JavaScript. [00:01:25](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m25s) Re-open. (For now, Admin view has the same issue.) Close and open it again, and it will all be selected. Keep a lookout for this; if you make changes and save it with those buttons unchecked, it will not include those values since it will be stored as null and you might get unexpected results. [00:01:56](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m56s) Unfortunately this is not something that can be changed at this stage.
 
 ### Site View Options(Menu-Metadata-Default View-Access)
 
-[00:02:21](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h02m21s)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zZ_HJeYL8ps?start=141" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Go to site view. Close it and open it again. Everything is selected. It has four options. Select the site views and add as many as you like.
 
@@ -44,3 +45,5 @@ Let's say some of these views you have set don't have public user or access, for
 Add access makes sure that a user has certain access rights. In an item, you can set the access rights and the view rights. It has multiple implementations. One is access groups, the other is groups. If you want access to this specific view to be monitored, tick that and Component Builder will ensure the access table is there. [00:06:10](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m10s)
 
 After creating the Site view this is how you can add it. Check it and see how it works. [00:06:32](https://www.youtube.com/watch?v=zZ_HJeYL8ps&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m32s)
+
+</div>

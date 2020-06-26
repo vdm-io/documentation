@@ -1,16 +1,17 @@
+<div style="text-align: justify">
+
 # HOW TO FILTER A LIST FIELD BASED ON ASSOCIATION WITH ANOTHER FIELD
 
 
 ### Explanation Of Filter Fields
 
-[00:00:00](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m00s)
-(_Click on these time links to see Youtube video_)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Perhaps you encountered the necessity to limit the dropdowns of a list field based on its association with another table. A common place where this occurs is, for example, when the regions of only one country have to be loaded. Although there are many ways to accomplish this, this is how I have done it.
 
-* ### Example Component With Filters
+### Example Component With Filters
 
-[00:00:43](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h00m43s)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk?start=43" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For example; Here is a component called 'Job Tracking'. In this component is a client area. If you go to Admin Views, there is 'Country' and 'Regions'. The field concepts can be changed and replaced with other tables. (See video.) [00:01:16](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m16s) Here follows an explanation of how it is implemented in the client's view because that's where most of the work is done. JavaScript, as well as the PHP area, are two areas that should be looked at. [00:01:51](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h01m51s) In previous tutorials some of the Ajax functionality in Component Builder had been explained.
 
@@ -22,19 +23,21 @@ To demonstrate how that was done:
 
 ### Two Variables - Var Regions(object) Var Region(store)
 
-[00:04:30](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h04m30s)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk?start=270" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Let's get started on the JavaScript side of things. There are two variables. Both may be called 'var'. One is an object and one is where a value will be stored (only if that value is already set.) When the fields are  Created, all the regions are brought to the page. No region should be left unloaded. [00:05:11](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m11s) Rather parse those regions into this variable, then place those regions that are part of this country back into the list of drop-down options. [00:05:43](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m43s) It is been done for 'each(function()' on the regions options. (See video.) Get the value; it is placed in 'var'key. Get the 'text', place it in 'var' text, then add it to regions'Key=text'. It is loaded in an array. [00:06:08](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m08s) Then take the value of the set region, add that to 'Region', and the function 'getregion' is set. 
+Let's get started on the JavaScript side of things. There are two variables. Both may be called 'var'. One is an object and one is where a value will be stored (only if that value is already set.) When the fields are  Created, all the regions are brought to the page. No region should be left unloaded. [00:05:11](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m11s) Rather parse those regions into this variable, then place those regions that are part of this country back into the list of drop-down options. [00:05:43](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h05m43s) It is been done for 'each(function()' on the regions options. (See video.) Get the value; it is placed in 'var'key. Get the 'text', place it in 'var' text, then add it to regions'Key=text'. It is loaded in an array. [00:06:08](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m08s) Then take the value of the set region, add that to 'Region', and the function 'getregion' is set.
 
 ### Loading Show - Class ID
 
-[00:06:23](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m23s)
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk?start=383" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 First load the 'jQuery("#loading"),show);'. This 'show', or the class ID, is loaded on the page by default when Fade in Affect is set on 'Add'. By default, it loads that class with a spinner. If the loading process takes a long time the user is incapable of doing anything. [00:06:58](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h06m58s) It is not necessary to add that. Look for the options 'find('option')' for the region, and remove all of them. An update is then triggered. This update that is triggered here 'lizt', is a Joomla function. [00:07:19](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m19s) It might change in the future. Keep in mind that if things break, it might happen here, because this list field is dynamically generated by Joomla. Only after everything has been removed, it may be told to draw that list again.
 
 ### GetRegion
 
-[00:07:51](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h07m51s) Up till here only the region had been touched. Now get the country value that has been selected and add it to 'country'. Now call the server. The only thing given to the server is the 'country' ID. Up here is a 'country' ID. We have our getUrl. In this case, 'getRegion' is the task. [00:08:16](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m16s) Check if the token is on the page and make sure that a country ID is not zero. A request is loaded and an Ajax is sent.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk?start=471" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Up till here only the region had been touched. Now get the country value that has been selected and add it to 'country'. Now call the server. The only thing given to the server is the 'country' ID. Up here is a 'country' ID. We have our getUrl. In this case, 'getRegion' is the task. [00:08:16](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m16s) Check if the token is on the page and make sure that a country ID is not zero. A request is loaded and an Ajax is sent.
 
 It is done this way because some things must be performed after we have the result which is this 'done'. [00:08:40](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h08m40s) Then  'setRegion'. The result is placed into 'setRegion'. Hide the 'load' and do some house cleaning on the 'button'. In this instance, the button had been tampered with. There is a correction region button below. (See video.) [00:09:05](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m05s) This code may be copied and tested. Update 'region' to whatever field you are trying to limit but only after 'setRegion'.
 
@@ -42,19 +45,23 @@ It is done this way because some things must be performed after we have the resu
 
 SetRegion is simple, mainly because most of the work had already been done, with the result being returned. (It gets returned by PHP). [00:09:38](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m38s) Get an array in 'setRegion', check if the array is there, then 'append'. As with any list selection, 'append' the value.
 
-* ### Strings - Select_A_Region, Create_A_Region
+### Strings - Select_A_Region, Create_A_Region
 
-[00:09:55](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h09m55s) The 'select_a_region' is a JavaScript variable that is set through PHP, which will be discussed at a later stage. It's just a string that says that the region should be selected. [00:10:21](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m21s) If there is no array returned, another variable should be used, the 'create_a_region' which is also just a string.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk?start=595" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The 'select_a_region' is a JavaScript variable that is set through PHP, which will be discussed at a later stage. It's just a string that says that the region should be selected. [00:10:21](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m21s) If there is no array returned, another variable should be used, the 'create_a_region' which is also just a string.
 
 Go to 'jQuery.each(array,function(i,id){', select 'array', and use the 'id'. Check if the 'id' is in 'regions'. If it is in 'regions', append the 'id' as a value. In 'regions' the text, as well as the 'id', had been saved. [00:10:51](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h10m51s) That is how to get the text, adding it in there. (See video.) It could have been done in PHP, but let the browser help with some of the lifting. There are regions. If it's a huge table it should be approached differently. Eventually, it is checked whether the 'id' and the 'region' equals(id==region). If it does, it is necessary to ensure setting the 'region' value.
 
 [00:11:25](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m25s) As you remember we found the region value and stored it into 'region'. Just in case the value was set before and saved, now the person looks through different countries. But when he selects the country that was previously saved, we want to make sure that this previous region is also shown as the selected value. That's what we are doing here. (jQuery(#jform_region)val(id)). After everything is done we trigger this liszt:Updated again. [00:11:58](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h11m58s)  Which is the same as what was triggered there. (See video.) This sets the Regions List afresh. We run this bit of housekeeping which is done by the region button.
 
-### RegionButton Correction 
+### Region Button Correction 
 
-[00:12:22](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m22s) The region button is JavaScript that is added because of the List field. If a specific list field was set to have no button, then leave this out. If it was set to have a button, the name of the button would be this area before the 'jform'_. This part of the name ('region') would be the first part of the name of the button function, and the last part would be 'button'. [00:12:54](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m54s) That's how it can execute and search for this 'regionButton' function on the page if there is uncertainty. That's how to run the Button Correction. That is how the JavaScript performing this looks like. This area of JavaScript can include PHP.[00:13:25](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m25s) This area can not because it's a pure JavaScript file where this is JavaScript added to a PHP file. There may be added some PHP and that's where to get the 'select_region' and 'create_region'.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z8FLifQOjUk?start=742" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### JavaScript - AdminForm.on(change) 
+The region button is JavaScript that is added because of the List field. If a specific list field was set to have no button, then leave this out. If it was set to have a button, the name of the button would be this area before the 'jform'_. This part of the name ('region') would be the first part of the name of the button function, and the last part would be 'button'. [00:12:54](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m54s) That's how it can execute and search for this 'regionButton' function on the page if there is uncertainty. That's how to run the Button Correction. That is how the JavaScript performing this looks like. This area of JavaScript can include PHP.[00:13:25](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h13m25s) This area can not because it's a pure JavaScript file where this is JavaScript added to a PHP file. There may be added some PHP and that's where to get the 'select_region' and 'create_region'.
+
+### JavaScript - AdminForm.on(change)
 
 There is another way to do this in Javascript. This function, the 'adminForm.on(change)' of the country field and when that event occurs. We want to execute 'getRegion'. [00:14:06](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m06s) That is done every time the field is changed. That is the extra Script that must be added to these two if you are going to copy this. It will execute this function which is the same function executed on the page load. [00:14:33](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h14m33s) It is not necessary to execute this because it is already been done on the page load. It is all the JavaScript that should be added.
 
@@ -69,3 +76,5 @@ It is not necessary to add the PHP to the same Admin view since all the Ajax met
 The fields being focused on this is Country and Region Field both of which are custom. Tutorials had been done on how to set up a Custom Field. As a reminder: Open Region. In Region the button is set on true ('button="true"'). [00:18:34](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h18m34s) The region is selected. The view name can be dynamically updated in the description. Here(XML field definition) some PHP is done. All of the PHP can be placed in 'type_PHP_1' without adding it to the 19th placement. Every area had been used. [00:19:05](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQHereHereZWBfDzzlERLQgpMRE&t=00h19m05s) I prefer to let the code appear as it had been written and not computer-generated. Options are added, and so this is a  basic Custom field without any JavaScript in it. Everything had been done in the back end Admin View, the PHP as well as the Javascript. [00:19:44](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h19m44s) I prefer to use this field may be in other views with different associations. So I don't usually use the script area as one might expect.
 
 So that's looking at filtering a dropdown Custom list selection via JavaScript and Ajax. [00:20:15](https://www.youtube.com/watch?v=Z8FLifQOjUk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h20m15s) If you are targeting a table of another component where you do not have control over the actual field names, it will work the same way as long as there is a field of association within the table that you like to filter, you could write that PHP, find the values and filter it.
+
+</div>
