@@ -10,8 +10,7 @@ Just a basic demo of the most basic implementations of the [Joomla](http://www.j
 
 # Features
 
-+ [Add Looks](advanced-demo/addLook.md "Add Look")
-+ [Test](jcb/003-Installation-of-JCB.md "Add Look")
++ [Adding Looks](advanced-demo/addLook.md "Add Look")
 
 # Build Details
 

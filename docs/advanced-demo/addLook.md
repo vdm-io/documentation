@@ -1,4 +1,6 @@
-# <u>Adding *Looks*:</u>
+<div style="text-align: justify">
+
+# <u>Adding *Looks*</u>
 
 ### Step One: After you have finished installing the Demo component, Goto Toolbar->Components and then select the Demo component from the list of all available components. Click on the *Add Looks* button.
 ![Add Look](../assets/demo/addLook1.png "Step One")
@@ -17,3 +19,5 @@
 
 ### Step Six: On your Site area, select a *Look* and when you click on the *More Details* button a pop-up window will come up with the extra details that you added on your *Look*.
 ![Add Look](../assets/demo/addLook6.png "Step Six")
+
+</div>
