@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 # INSTALLATION OF JOOMLA COMPONENT BUILDER
 
 ###  How To Build a Component
@@ -60,3 +62,5 @@ So that is how you would add the data without uninstalling the whole component. 
 Now if we go back to the component and to field types, you'd see that it has more field types and it has a few fields setups as well. This is the version called Developer which only has the demo component in it. I'm going to use this version to show you how to build sermon distributor [00:12:44](https://www.youtube.com/watch?v=t6Eux157428&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&t=00h12m44s) from scratch.
 
 We'll continue with field types in the next tutorial.
+
+</div>
