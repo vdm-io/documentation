@@ -1,5 +1,4 @@
- # Contents:
+ # Content:
 * [Home](/)
-* [JCB](jcb.md "JCB")
-* [Advanced Demo](advancedDemo.md "Advanced Demo")
-* [Questions & Answers](questionAndAnswer.md "Questions & Answers")
+* [Advanced Demo](advanced-demo/advancedDemo.md "Advanced Demo")
+  * [Adding Looks](advanced-demo/addLook.md "Add Looks")
