@@ -1,3 +1,4 @@
+
 # Joomla Component Builder ([JCB](http://joomlacomponentbuilder.com))
 [![GitHub release](https://img.shields.io/github/release/vdm-io/Joomla-Component-Builder.svg)](https://github.com/vdm-io/Joomla-Component-Builder/releases)
 [![Total Downloads](https://img.shields.io/github/downloads/vdm-io/Joomla-Component-Builder/total.svg)](https://github.com/vdm-io/Joomla-Component-Builder/releases)
@@ -7,13 +8,11 @@ This is a [Joomla 3.x](https://extensions.joomla.org/extension/component-builder
 
  ![Component Builder image](https://raw.githubusercontent.com/vdm-io/Joomla-Component-Builder/master/admin/assets/images/vdm-component.jpg "The Component Builder")
 
-# Description
-
 The Component Builder for [Joomla](https://extensions.joomla.org/extension/component-builder/) is highly advanced tool that is truly able to build extremely complex components in a fraction of the time.
 
-Whether you're a seasoned [Joomla](https://extensions.joomla.org/extension/component-builder/) developer, or have just started, Component Builder will save you lots of time and money. A real must have!
+Whether you're a seasoned [Joomla](https://extensions.joomla.org/extension/component-builder/) developer, or have just started, Component Builder will safe you lots of time and money. A real must have!
 
-You can install it quite easily and with no limitations. On [github](https://github.com/vdm-io/Joomla-Component-Builder/releases) is the latest release (2.11.2) with **ALL** its features and **ALL** concepts totally open-source and free!
+You can install it quite easily and with no limitations. On [github](https://github.com/vdm-io/Joomla-Component-Builder/releases) is the latest release (2.11.3) with **ALL** its features and **ALL** concepts totally open-source and free!
 
 > Watch Quick Build of a Hello World component in [JCB on Youtube](https://www.youtube.com/watch?v=IQfsLYIeblk&list=PLQRGFI8XZ_wtGvPQZWBfDzzlERLQgpMRE&index=45)
 
@@ -56,7 +55,7 @@ Some of the Features
 + Fully Dynamic Search Friendly URL Auto Implementation.
 + Custom scripting options all over the MVC structure.
 + Permission implementation down to each view, item and field.
-+ Easy extendable to include other libraries.
++ Easy extendible to include other libraries.
 + Can include SQL and visioning update link to distribute your component updates via [Joomla](https://extensions.joomla.org/extension/component-builder/) default upgrade of components.
 + Easy Export & Import addon to all backend-tables.
 + Overriding ability of import concepts in all backend-tables.
@@ -145,12 +144,12 @@ TODO
 + *Author*: [Llewellyn van der Merwe](mailto:llewellyn@joomlacomponentbuilder.com)
 + *Name*: [Component Builder](https://github.com/vdm-io/Joomla-Component-Builder)
 + *First Build*: 30th April, 2015
-+ *Last Build*: 1st June, 2020
-+ *Version*: 2.11.2
++ *Last Build*: 8th August, 2020
++ *Version*: 2.11.3
 + *Copyright*: Copyright (C) 2015 - 2020 Vast Development Method. All rights reserved.
 + *License*: GNU General Public License version 2 or later; see LICENSE.txt
-+ *Line count*: **282524**
-+ *Field count*: **1522**
++ *Line count*: **283076**
++ *Field count*: **1527**
 + *File count*: **1785**
 + *Folder count*: **295**
 
