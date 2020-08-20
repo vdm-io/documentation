@@ -1,4 +1,4 @@
-# A step by step guide that explains how to work with Joomla! Web Extensions developed by ([Vast Development Method](https://vdm.io))
+# A step by step guide on how to work with Joomla! Web Extensions developed by ([Vast Development Method](https://vdm.io))
 
 <!-- Table with links and components' Images -->
 
