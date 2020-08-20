@@ -1,6 +1,6 @@
 # Content:
 * [Home](/)
-* [JCB](component-builder/jcb.md "JCB")
+* [Component Builder](component-builder/jcb.md "JCB")
   * [Hello World with JCB](component-builder/jcb/001-Hello-World-with-Joomla-Component-Builder.md "Hello World")
   * [Introduction](component-builder/jcb/002-Intro-to-JCB.md "Intro")
   * [Installation](component-builder/jcb/003-Installation-of-JCB.md "Installation")
